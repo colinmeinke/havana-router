@@ -3756,9 +3756,11 @@ var Router = (function () {
   _createClass(Router, [{
     key: 'init',
     value: function init() {
-      var event = _.get(this).event;
-      var reporting = _.get(this).reporting;
-      var routes = _.get(this).routes;
+      var _$get = _.get(this);
+
+      var event = _$get.event;
+      var reporting = _$get.reporting;
+      var routes = _$get.routes;
 
       event.subscribe('route.find', function (data) {
         for (var i = 0, l = routes.length; i < l; i++) {

@@ -1,6 +1,6 @@
 {
   "name": "havana-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple router for routed response handlers",
   "main": "dist/router.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "isomorphic",
     "response",
     "routed",
-    "router"
+    "router",
+    "universal"
   ],
   "license": "ISC",
   "devDependencies": {
