@@ -5,7 +5,7 @@
 A simple router for routed response handlers.
 
 Havana router subscribes to the `route.find` event published
-by a routed response hanlder. When it receives a `route.find`
+by a routed response handler. When it receives a `route.find`
 event it will iterate through the array of routes it was
 instantiated with, attempting to match on the `url` and
 `method`. If it matches a route Havana router will publish a
