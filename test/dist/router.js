@@ -8,9 +8,9 @@ var _chai = require('chai');
 
 var _chai2 = _interopRequireDefault(_chai);
 
-var _distRouterWithPolyfill = require('../../dist/router.with-polyfill');
+var _distRouterServerWithPolyfill = require('../../dist/router.server.with-polyfill');
 
-var _distRouterWithPolyfill2 = _interopRequireDefault(_distRouterWithPolyfill);
+var _distRouterServerWithPolyfill2 = _interopRequireDefault(_distRouterServerWithPolyfill);
 
 var _havanaEvent = require('havana-event');
 
@@ -20,7 +20,7 @@ var expect = _chai2['default'].expect;
 
 var event = new _havanaEvent2['default']();
 
-var router = new _distRouterWithPolyfill2['default']({
+var router = new _distRouterServerWithPolyfill2['default']({
   'event': event,
   'reporting': {
     'level': 0,

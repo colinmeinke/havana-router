@@ -1,7 +1,7 @@
 /* global describe it */
 
 import chai from 'chai';
-import Router from '../../dist/router.with-polyfill';
+import Router from '../../dist/router.server.with-polyfill';
 import Event from 'havana-event';
 
 const expect = chai.expect;

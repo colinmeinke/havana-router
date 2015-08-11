@@ -89,8 +89,15 @@ However, by default this module will use an ES5
 compatible file that has been compiled using
 [Babel](https://babeljs.io).
 
+In the `dist` directory there are four files, the default
+is `router.server.js`. The default when using a client-side
+bundler that supports the
+[browser field](https://gist.github.com/defunctzombie/4339901)
+spec is `router.browser.js`.
+
 Havana router currently requires the 
 [Babel polyfill](https://babeljs.io/docs/usage/polyfill).
-In the `dist` directory there are two files, the default
-`router.js` and `router.with-polyfill.js`
-that includes the Babel browser polyfill.
+You are expected to supply this yourself. However, as a
+courtesy you will also find `router.server.with-polyfill.js`
+and `router.browser.with-polyfill.js` in the `dist`
+directory.
