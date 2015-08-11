@@ -1,6 +1,6 @@
 {
   "name": "havana-router",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple router for routed response handlers",
   "main": "dist/router.server.js",
   "scripts": {

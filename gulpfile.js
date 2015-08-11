@@ -31,7 +31,7 @@ gulp.task( 'compileServer', [ 'lint' ], function () {
 gulp.task( 'compileBrowser', [ 'lint' ], function () {
   return browserify({
     'entries': './lib/router.js',
-    'standalone': 'havana-component-router',
+    'standalone': 'havana-router',
   })
     .transform( babelify )
     .bundle()
