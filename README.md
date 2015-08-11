@@ -1,6 +1,7 @@
 # Havana router
 
 [![Build Status](https://travis-ci.org/colinmeinke/havana-router.svg?branch=master)](https://travis-ci.org/colinmeinke/havana-router)
+[![Dependency status](https://david-dm.org/colinmeinke/havana-router.svg)](https://david-dm.org/colinmeinke/havana-router.svg)
 
 A simple router for routed response handlers.
 
