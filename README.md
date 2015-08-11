@@ -1,5 +1,6 @@
 # Havana router
 
+[![NPM version](https://badge.fury.io/js/havana-router.svg)](http://badge.fury.io/js/havana-router)
 [![Build Status](https://travis-ci.org/colinmeinke/havana-router.svg?branch=master)](https://travis-ci.org/colinmeinke/havana-router)
 [![Dependency status](https://david-dm.org/colinmeinke/havana-router.svg)](https://david-dm.org/colinmeinke/havana-router.svg)
 
